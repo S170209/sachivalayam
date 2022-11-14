@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    .logo{
+        display: flex;
+    }
+    .logo p{
+        font-size: 24px;
+        margin-left:12px ;
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+    .input-field{
+        width: 100%;
+        margin: 0;
+        input{
+            width: 92%;
+            margin:5px 10px;
+            padding: 14px;
+            border: 1px solid rgb(116, 112, 112);
+            border-radius: 12px;
+        }
+        p{
+            margin-left: 12px;
+            margin-bottom: 4px;
+        }
+    }
+    button{
+        background-color: blue;
+        width: 92%;
+        border-radius: 12px;
+        padding: 14px;
+        margin: 5px 10px;
+        color:#fff;
+        font-size: 20px;
+    }
+}

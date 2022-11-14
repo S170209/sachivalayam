@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="logo">
+      <p>Sachivalayam</p>
+    </div>
+    <div class="input-field">
+      <p>Username</p>
+      <input [(ngModel)]="name" class="inputCustom" placeholder="Employee Name" />
+    </div>
+    <div  class="input-field">
+      <p>Designation</p>
+      <input  [(ngModel)]="password"  placeholder="Designation" />
+    </div>
+    <div  class="input-field">
+      <p>Sachivalayam</p>
+      <input  [(ngModel)]="password"  placeholder="Name of the Sachivalayam" />
+    </div>
+    <div  class="input-field">
+      <p>Mandal</p>
+      <input  [(ngModel)]="password"  placeholder="Name of the Mandal" />
+    </div>
+    <div  class="input-field">
+      <p>District</p>
+      <input  [(ngModel)]="password"  placeholder="Name of the District" />
+    </div>
+    <div  class="input-field">
+      <p>Mobile Number</p>
+      <input  [(ngModel)]="password"  placeholder="Mobile Number" />
+    </div>
+    <div  class="input-field">
+      <p>Profile Picture </p>
+      <input  [(ngModel)]="password"  placeholder="Profile Picture" type="file" />
+    </div>
+    <button  (click)="login()">Register</button>
+    </div> 
+</ion-content>
+
